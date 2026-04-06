@@ -1,11 +1,11 @@
-import ComponentsView from 'src/sections/_examples/view';
+import { HomeView } from 'src/sections/home/view';
 
 // ----------------------------------------------------------------------
 
 export const metadata = {
-  title: 'Components',
+  title: 'Minimal: The starting point for your next project',
 };
 
-export default function ComponentsPage() {
-  return <ComponentsView />;
+export default function HomePage() {
+  return <HomeView />;
 }
